@@ -97,7 +97,7 @@ app.post("/previous", (req, res) => {
 app.post("/search",(req, res)=>{
   let names = []
   let indexes = 0;
-  let searchBar = req.body.heroSearch;
+  let searchBar = req.body.heroSearch.toLowerCase();
   request(url, (err, response, body)=>{
     if (!err){
       const users = JSON.parse(body);
