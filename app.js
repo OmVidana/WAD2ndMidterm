@@ -126,8 +126,10 @@ app.post("/search",(req, res)=>{
   });
 });
 
-app.listen(3000, () => {
-  console.log("Listening on port 3000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log("Listening on port " + PORT);
 });
 
 //Al buscar debe aparecer el nombre de los superheroes que coinciden y picarle y te pondra el superheroe
