@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Gotham Knights;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/GothamKnights.woff") format("woff"), url("../fonts/GothamKnights.ttf") format("truetype");
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-title {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Gotham Knights', serif;
+    font-size: 120px;
+    color:floralwhite;
+}
+
+.search-bar {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    color: floralwhite;
+}
+
+.form-control:focus {
+    color: floralwhite;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(15, 15, 15);
+    border-color: floralwhite;
+    border-width: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 400px;
+}
+
+.card-body {
+    width: 300px;
+    height: 400px ;
+}
+
+.card-body-content {
+    text-align: justify;
+}
+
+.left-arrow {
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.right-arrow {
+    display: flex;
+    justify-content: center;  
+    margin-left: 200px;   
+    align-items: center;
+}
+
+.arrows{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: floralwhite;
+    color: rgb(20, 20, 20);
+}
+
+.information{
+    color: floralwhite;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body-content-error {
+    text-align: center;
+    align-items: center;
+}
+
+.button-error{
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
